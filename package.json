@@ -1,0 +1,19 @@
+{
+    "name": "timeline-screenshot-vanilla",
+    "version": "1.0.0",
+    "description": "A vanilla JS timeline with screenshot functionality for Vercel.",
+    "main": "api/take-screenshot.js",
+    "scripts": {
+      "start": "node api/take-screenshot.js",
+      "dev": "vercel dev"
+    },
+    "dependencies": {
+      "@vercel/og": "^0.6.2",
+      "cors": "^2.8.5",
+      "express": "^4.19.2",
+      "sharp": "^0.33.3"
+    },
+    "engines": {
+      "node": ">=18.x"
+    }
+  }
